@@ -24,4 +24,4 @@ btns.forEach((btn)=>{
         }
         value.textContent = count;
     })
-})
+});
