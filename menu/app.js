@@ -135,7 +135,7 @@ const filterBtns = document.querySelectorAll('.filter-btn');
 
 filterBtns.forEach(filterBtn =>{
   filterBtn.addEventListener('click',()=>{
-    const category =filterBtn.dataset.id;
+    const category = filterBtn.dataset.id;
     const menuCategory = menuItems.filter((menuItem)=>{
       // console.log(menuItem);
       if(menuItem.category === category){
