@@ -9,7 +9,7 @@ const btns = [...document.querySelectorAll('.icon')];
 export default function displayUser(person){
     value.textContext = person.name;
     img.src = person.image;
-    console.log(person.name);
+    // console.log(person.name);
     title.textContent = `My name is`;
     value.textContent = person.name;
     removeActive(btns);
